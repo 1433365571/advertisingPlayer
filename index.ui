@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>index</class>
+ <widget class="QWidget" name="index">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>358</width>
+    <height>629</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="vidWidget" name="widget" native="true"/>
+   </item>
+   <item>
+    <widget class="imageWidget" name="widget_2" native="true"/>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>vidWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">vidwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>imageWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">imagewidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
